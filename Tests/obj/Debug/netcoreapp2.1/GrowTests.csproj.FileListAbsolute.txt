@@ -1,0 +1,17 @@
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/GrowTests.deps.json
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/GrowTests.runtimeconfig.json
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/GrowTests.runtimeconfig.dev.json
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/GrowTests.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/GrowTests.pdb
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/CGrowAutomationChallengeTestFramework.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/bin/Debug/netcoreapp2.1/CGrowAutomationChallengeTestFramework.pdb
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.csprojAssemblyReference.cache
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.csproj.CoreCompileInputs.cache
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.AssemblyInfoInputs.cache
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.AssemblyInfo.cs
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.csproj.CopyComplete
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.dll
+/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/obj/Debug/netcoreapp2.1/GrowTests.pdb

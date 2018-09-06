@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGrowAutomationChallengeTestFramework", "CGrowAutomationChallengeTestFramework\CGrowAutomationChallengeTestFramework.csproj", "{7ED951D6-4A6A-46D8-9649-6E3F1C673CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrowTests", "Tests\GrowTests.csproj", "{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED951D6-4A6A-46D8-9649-6E3F1C673CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED951D6-4A6A-46D8-9649-6E3F1C673CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED951D6-4A6A-46D8-9649-6E3F1C673CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED951D6-4A6A-46D8-9649-6E3F1C673CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

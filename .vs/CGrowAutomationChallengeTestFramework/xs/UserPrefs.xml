@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CGrowAutomationChallengeTestFramework/Pages/DashboardPage.cs">
+    <Files>
+      <File FileName="CGrowAutomationChallengeTestFramework/Pages/LoginPage.cs" Line="28" Column="63" />
+      <File FileName="Tests/GrowTests.cs" Line="34" Column="1" />
+      <File FileName="CGrowAutomationChallengeTestFramework/Pages/DashboardPage.cs" Line="78" Column="125" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GrowTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/GrowTests.cs" relfile="Tests/GrowTests.cs" line="44" column="1" />
+      <Breakpoint file="/Users/vernkofford/Projects/CGrowAutomationChallengeTestFramework/Tests/GrowTests.cs" relfile="Tests/GrowTests.cs" line="47" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
