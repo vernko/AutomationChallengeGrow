@@ -40,11 +40,12 @@ namespace Tests
 
             var dashboard = new DashboardPage(Driver, Wait);
             dashboard.WaitForPageLoad();
+            dashboard.GotoDashboard("Sales Dashboard");
             dashboard.ExpandFirstMetric();
-            dashboard.Map.CloseExpandedViewIcon.Click();
+            dashboard.CloseExpandedMetric();
             
             // assert expanded view is closed
-            Assert.IsFalse(dashboard.Map.CloseExpandedViewIcon.Displayed);
+            Assert.IsTrue(dashboard.Map.MetricContainer.Displayed);
         }
 
         [TestMethod]

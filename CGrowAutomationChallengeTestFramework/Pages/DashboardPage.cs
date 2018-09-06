@@ -30,12 +30,23 @@ namespace CGrowAutomationChallengeTestFramework
             Map.NewDashboardSubmitButton.Click();
         }
 
+        public void CloseExpandedMetric()
+        {
+            _wait.Until(drvr => Map.ExpandedMetricContainer.Displayed);
+
+            Actions actions = new Actions(_driver);
+            actions.MoveToElement(Map.ExpandedHeaderActions);
+            actions.Build().Perform();
+            Map.CloseExpandedViewIcon.Click();
+        }
+
         public void ExpandFirstMetric()
         {
+            _wait.Until(drvr => Map.MetricContainer.Displayed);
+
             Actions actions = new Actions(_driver);
-            actions.MoveToElement(Map.ExpandedViewIcon);
-            actions.Click();
-            actions.Perform();
+            actions.MoveToElement(Map.MetricContainer).Build().Perform();
+            Map.ExpandMetricButton.Click();
         }
 
         public IWebElement GetDashboard(string name)
@@ -46,6 +57,7 @@ namespace CGrowAutomationChallengeTestFramework
 
         public void GotoDashboard(string name)
         {
+            Map.MainMenuButton.Click();
             var dashboards = Map.AllDashboardsContainer.FindElements(By.TagName("div"));
             dashboards.FirstOrDefault(dash => dash.Text == name).Click();
         }
@@ -68,16 +80,19 @@ namespace CGrowAutomationChallengeTestFramework
         // Main Menu
         public IWebElement MainMenuButton => _driver.FindElement(By.CssSelector("[data-testid=open-button]"));
         public IWebElement AddDashboardButton => _driver.FindElement(By.CssSelector(".button > [class*='addDashboard']"));
-        public IWebElement AllDashboardsContainer => _driver.FindElement(By.TagName("allDashboardsQA"));
+        public IWebElement AllDashboardsContainer => _driver.FindElement(By.XPath("//div[@class='allDashboardsQA']"));
 
         // Add Dashboard modal
         public IWebElement NewDashboardNameField => _driver.FindElement(By.CssSelector("[id*=EnterDashboardName]"));
         public IWebElement NewDashboardSubmitButton => _driver.FindElement(By.XPath("//*[text()='Submit']"));
 
         // Dashboard Details
-        public IWebElement ExpandedViewIcon => _driver.FindElement(By.XPath("//div[@class='metricInfo---transient---35-P9']"));
-        public IWebElement CloseExpandedViewIcon => _driver.FindElement(By.XPath("//div[@class='expandedMetricDialog---close---2mgNl']"));
-        public IWebElement ExpandedView => _driver.FindElement(By.ClassName("filters---chartFiltersContainer---sHggt"));
-        public IWebElement BackgroundExpandedView => _driver.FindElement(By.ClassName("expandedMetricDialog---overlay---1kpAq"));
+        public IWebElement MetricContainer => _driver.FindElement(By.CssSelector("[class*='metricTitle---container']"));
+        public IWebElement ExpandMetricButton => _driver.FindElement(By.CssSelector("[class*='metricInfo---expand']"));
+
+        // Expanded Dashboard Details
+        public IWebElement CloseExpandedViewIcon => _driver.FindElement(By.CssSelector("[class*='expandedMetricDialog---close']"));
+        public IWebElement ExpandedMetricContainer => _driver.FindElement(By.CssSelector("[class*='expandedMetricDialog---content']"));
+        public IWebElement ExpandedHeaderActions => _driver.FindElement(By.CssSelector("[class*='expandedMetricDialog---headerActions']"));
     }
 }
