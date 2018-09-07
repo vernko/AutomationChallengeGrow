@@ -10,9 +10,7 @@ namespace CGrowAutomationChallengeTestFramework
     public class DashboardPage
     {
         readonly IWebDriver _driver;
-
         readonly WebDriverWait _wait;
-
         public readonly DashboardPageMap Map;
 
         public DashboardPage(IWebDriver driver, WebDriverWait wait)
@@ -28,6 +26,8 @@ namespace CGrowAutomationChallengeTestFramework
             Map.AddDashboardButton.Click();
             Map.NewDashboardNameField.SendKeys(name);
             Map.NewDashboardSubmitButton.Click();
+
+
         }
 
         public void CloseExpandedMetric()
@@ -38,6 +38,7 @@ namespace CGrowAutomationChallengeTestFramework
             actions.MoveToElement(Map.ExpandedHeaderActions);
             actions.Build().Perform();
             Map.CloseExpandedViewIcon.Click();
+            Thread.Sleep(2);
         }
 
         public void ExpandFirstMetric()
@@ -51,6 +52,8 @@ namespace CGrowAutomationChallengeTestFramework
 
         public IWebElement GetDashboard(string name)
         {
+            _wait.Until(drvr => Map.AllDashboardsContainer.Displayed);
+
             var dashboards = Map.AllDashboardsContainer.FindElements(By.TagName("div"));
             return dashboards.FirstOrDefault(dash => dash.Text == name);
         }

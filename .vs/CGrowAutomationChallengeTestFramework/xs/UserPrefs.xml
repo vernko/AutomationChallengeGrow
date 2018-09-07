@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{538917AD-3BCC-4EC1-B6C6-4A8987FA3887}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/GrowTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CGrowAutomationChallengeTestFramework/Pages/DashboardPage.cs">
     <Files>
       <File FileName="CGrowAutomationChallengeTestFramework/Pages/LoginPage.cs" Line="52" Column="2" />
       <File FileName="Tests/GrowTests.cs" Line="49" Column="10" />
-      <File FileName="CGrowAutomationChallengeTestFramework/Pages/DashboardPage.cs" Line="94" Column="132" />
+      <File FileName="CGrowAutomationChallengeTestFramework/Pages/DashboardPage.cs" Line="50" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.GrowTests PreferredExecutionTarget="MonoDevelop.Default" />
